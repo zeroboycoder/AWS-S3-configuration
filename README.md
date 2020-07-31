@@ -58,7 +58,7 @@
 
 <p>
   <b>Step 9 - </b>Then click on the newly created bucket and then click on <b>Permissions > Bucket Policy</b> <br />
-  <b>Replacing the <u><i>Principal.AWS value</i></u> and <i><u>Resource value</u></i> which value you can see in the top.</b>
+  <b>Replacing the <i>Principal.AWS value</i> with User ARM value and <i>Resource value</i> with the value you can see in the top.</b>
   <pre>
     {
         "Version": "2012-10-17",
