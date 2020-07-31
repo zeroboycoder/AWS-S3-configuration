@@ -28,7 +28,7 @@ Once you have created the account Click on service > Security, Identity & Compli
 <br />
 
 <p>
-  <b>Step 6 -</b> Click on JSON and add the below policy code
+  <b>Step 6 -</b> Click on <b>JSON</b> and add the below policy code
   <pre>
     {
         "Version": "2012-10-17",
@@ -62,7 +62,7 @@ Once you have created the account Click on service > Security, Identity & Compli
 
 <p>
   <b>Step 9 - </b>Then click on the newly created bucket and then click on <b>Permissions > Bucket Policy</b> <br />
-  <b>Replacing the <i>Principal.AWS value</i> and <i>Resource value</i> which value you can see in the top.</b>
+  <b>Replacing the <i><underline>Principal.AWS value<</underline>/i> and <i><underline>Resource value</underline></i> which value you can see in the top.</b>
   <pre>
     {
         "Version": "2012-10-17",
