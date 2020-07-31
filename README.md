@@ -2,7 +2,7 @@
 <br />
 
 <p><b>Step 1 - </b>Create an account <a href="https://us-east-2.console.aws.amazon.com/console/home">console.aws.amazon.com</a></p>
-
+<br />
 
 <p>
   <b>Step 2 - </b>Create user on <a href="https://console.aws.amazon.com/iam/home?region=us-east-2#/users">console.aws.amazon.com</a>
@@ -11,25 +11,25 @@
 <br />
 Once you have created the account Click on service > Security, Identity & Compliance > IAM
 </p>
-
+<br />
 
 <p>
   <b>Step 3 - </b>Click on Users > Add User <br />
   Enter a new username(eg. testuser) and select Access types as <b>‘Programmatic access’</b>. Then click on Next Permission > Next review > Create User
 </p>
 <p>Note down your Access key ID and Secret access key and click on close.</p>
-
+<br />
 
 <p><b>Step 4 - </b>Now Click on the user created (eg. testuser)</p>
 <p>Note down the ARN (eg. arn:aws:iam::414731926230:user/testuser)</p>
-
+<br />
 
 <p><b>Step 5 - </b>Then click on <b>Add inline policy</b></p>
-
+<br />
 
 <p>
   <b>Step 6 -</b> Click on JSON and add the below policy code
-  <code>
+  <pre>
     {
         "Version": "2012-10-17",
         "Statement": [
@@ -46,24 +46,24 @@ Once you have created the account Click on service > Security, Identity & Compli
             }
         ]
     }
-  </code>
+  </pre>
 </p>
 <p>
   Then click on <b>Review Policy</b>, give it a name(eg. new-policy) and <b>Create Policy</b>.
 </p>
-
+<br />
 
 <p><b>Step 7 - </b>Then Click on <b>Services(from the Navmenu) > S3</b></p>
-
+<br />
 
 <p><b>Step 8 - </b>Then click on <b>Create bucket</b></p>
 <p>Enter a unique bucket name , select Region and then click on <b>Next</b>.Then <b>Create bucket</b></p>
-
+<br />
 
 <p>
   <b>Step 9 - </b>Then click on the newly created bucket and then click on <b>Permissions > Bucket Policy</b> <br />
   <b>Replacing the <i>Principal.AWS value</i> and <i>Resource value</i> which value you can see in the top.</b>
-  <code>
+  <pre>
     {
         "Version": "2012-10-17",
         "Statement": [
@@ -92,13 +92,13 @@ Once you have created the account Click on service > Security, Identity & Compli
             }
         ]
     }
-  </code>
+  </pre>
 </p>
-
+<br />
 
 <p>
   <b>Step 10 - </b>Now got <b>CORS configuration</b> and add this
-  <code>
+  <pre>
     <?xml version="1.0" encoding="UTF-8"?>
     <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
       <CORSRule>
@@ -110,10 +110,10 @@ Once you have created the account Click on service > Security, Identity & Compli
         <AllowedHeader>Authorization</AllowedHeader>
       </CORSRule>
     </CORSConfiguration>
-  </code>
+  </pre>
   then click <b>save</b>
 </p>
-
+<br />
 
 <p>
   Yeah!!! It's Done <br />
