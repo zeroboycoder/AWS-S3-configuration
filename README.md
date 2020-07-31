@@ -17,12 +17,13 @@
 
 <p>
   <b>Step 3 - </b>Click on <b>Users > Add User</b> <br />
-  Enter a new username(eg. testuser) and select Access types as <b>‘Programmatic access’</b>. Then click on <b>Next Permission > Next review > Create User</b> <br />
+  Enter a new username(eg. testuser) and select Access types as <b>‘Programmatic access’</b>. <br />
+  Then click on <b>Next Permission > Next review > Create User</b> <br />
   Note down your Access key ID and Secret access key and click on <b>close</b>.</p>
 <br />
 
-<p><b>Step 4 - </b>Now Click on the <b>user created</b> (eg. testuser)</p>
-<p>Note down the ARN (eg. arn:aws:iam::414731926230:user/testuser)</p>
+<p><b>Step 4 - </b>Now Click on the <b>user created</b> (eg. testuser) <br />
+  Note down the ARN (eg. arn:aws:iam::414731926230:user/testuser)</p>
 <br />
 
 <p><b>Step 5 - </b>Then click on <b>Add inline policy</b></p>
