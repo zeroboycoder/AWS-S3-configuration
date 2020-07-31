@@ -5,11 +5,11 @@
 <br />
 
 <p>
-  <b>Step 2 - </b>Create user on <a href="https://console.aws.amazon.com/iam/home?region=us-east-2#/users">console.aws.amazon.com</a>
+  <b>Step 2 - </b>Create user on <a href="https://console.aws.amazon.com/iam/home?region=us-east-2#/users">console.aws.amazon.com/iam/home</a>
 <br />
 <b>(OR)</b>
 <br />
-Once you have created the account Click on service > Security, Identity & Compliance > IAM
+  Click on <b>service(from Navmenu) > Security, Identity & Compliance > IAM</b>
 </p>
 <br />
 
