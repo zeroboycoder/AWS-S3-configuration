@@ -1,4 +1,4 @@
-<h1>Configuring the aws s3 bucket</h1>
+<h1>Configuring the AWS S3</h1>
 <br />
 
 <img src="https://miro.medium.com/max/960/1*ntWn7hrHla8mwRYSoCGcEw.png" alt="AWS S3" />
