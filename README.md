@@ -1,6 +1,8 @@
 <h1>Configuring the aws s3 bucket</h1>
 <br />
 
+<img src="https://miro.medium.com/max/960/1*ntWn7hrHla8mwRYSoCGcEw.png" alt="AWS S3" />
+
 <p><b>Step 1 - </b>Create an account <a href="https://us-east-2.console.aws.amazon.com/console/home">console.aws.amazon.com</a></p>
 <br />
 
