@@ -1,0 +1,11 @@
+{
+  "name": "aws-s3-configuration",
+  "version": "1.0.0",
+  "description": "This is text file for configuring the aws s3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZeroBoy",
+  "license": "MIT"
+}
