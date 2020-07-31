@@ -99,17 +99,19 @@ Once you have created the account Click on service > Security, Identity & Compli
 <p>
   <b>Step 10 - </b>Now got <b>CORS configuration</b> and add this
   <pre>
-    <?xml version="1.0" encoding="UTF-8"?>
-    <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
-      <CORSRule>
-        <AllowedOrigin>*</AllowedOrigin>
-        <AllowedMethod>GET</AllowedMethod>
-        <AllowedMethod>POST</AllowedMethod>
-        <AllowedMethod>PUT</AllowedMethod>
-        <MaxAgeSeconds>3000</MaxAgeSeconds>
-        <AllowedHeader>Authorization</AllowedHeader>
-      </CORSRule>
-    </CORSConfiguration>
+    <code>
+        <?xml version="1.0" encoding="UTF-8"?>
+        <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+          <CORSRule>
+            <AllowedOrigin>*</AllowedOrigin>
+            <AllowedMethod>GET</AllowedMethod>
+            <AllowedMethod>POST</AllowedMethod>
+            <AllowedMethod>PUT</AllowedMethod>
+            <MaxAgeSeconds>3000</MaxAgeSeconds>
+            <AllowedHeader>Authorization</AllowedHeader>
+          </CORSRule>
+        </CORSConfiguration>
+    </code>
   </pre>
   then click <b>save</b>
 </p>
