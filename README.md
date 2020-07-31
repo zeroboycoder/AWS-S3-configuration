@@ -116,5 +116,5 @@
 <p>
   Yeah!!! It's Done <br />
   If you have any error, contact me
-  <a href="https://www.facebook.com/pyaesonekhant.zeroboy">Facebook account</a>
+  <a href="https://www.facebook.com/pyaesonekhant.zeroboy">Facebook</a>
 </p>
