@@ -65,29 +65,22 @@
   <pre>
     {
         "Version": "2012-10-17",
+        "Id": "Policy1488494182833",
         "Statement": [
             {
-                "Sid": "AddCannedAcl",
+                "Sid": "Stmt1488493308547",
                 "Effect": "Allow",
                 "Principal": {
-                    "AWS": [
-                        "arn:aws:iam::883235560421:user/orionfileuploads"
-                    ]
+                    "AWS": "arn:aws:iam::281979644754:user/sample-user"
                 },
                 "Action": [
-                    "s3:PutObject",
-                    "s3:PutObjectAcl"
+                    "s3:ListBucket",
+                    "s3:ListBucketVersions",
+                    "s3:GetBucketLocation",
+                    "s3:Get*",
+                    "s3:Put*"
                 ],
-                "Resource": [
-                    "arn:aws:s3:::onclick/*"
-                ],
-                "Condition": {
-                    "StringEquals": {
-                        "s3:x-amz-acl": [
-                            "public-read"
-                        ]
-                    }
-                }
+                "Resource": "arn:aws:s3:::img-bucket-00123"
             }
         ]
     }
