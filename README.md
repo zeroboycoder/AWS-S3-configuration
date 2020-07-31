@@ -4,7 +4,7 @@
 <p><b>Step 1 - </b>Create an account <a href="https://us-east-2.console.aws.amazon.com/console/home">console.aws.amazon.com</a></p>
 
 <p>
-Create user on <a href="https://console.aws.amazon.com/iam/home?region=us-east-2#/users">console.aws.amazon.com</a>
+  <b>Step 2 -</b> Create user on <a href="https://console.aws.amazon.com/iam/home?region=us-east-2#/users">console.aws.amazon.com</a>
 <br />
 <b>(OR)</b>
 <br />
