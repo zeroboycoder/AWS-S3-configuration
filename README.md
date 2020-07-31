@@ -124,5 +124,5 @@
 <br />
 
 <p>
-  <b>ref : </b> <a href="https://codeytek.com/course/upload-files-images-on-amazon-web-services-course/upload-files-images-on-amazon-web-services-content/files-images-on-amazon-web-services-aws-s3-react-node-js-create-bucket/">Create bucket | Files Images on Amazon Web Services | AWS S3 | React | Node.js</a>
+  <b>Credit</b> <br /> <a href="https://codeytek.com/course/upload-files-images-on-amazon-web-services-course/upload-files-images-on-amazon-web-services-content/files-images-on-amazon-web-services-aws-s3-react-node-js-create-bucket/">Create bucket | Files Images on Amazon Web Services | AWS S3 | React | Node.js</a>
 </p>
