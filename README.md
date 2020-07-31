@@ -15,9 +15,8 @@
 
 <p>
   <b>Step 3 - </b>Click on Users > Add User <br />
-  Enter a new username(eg. testuser) and select Access types as <b>‘Programmatic access’</b>. Then click on Next Permission > Next review > Create User
-</p>
-<p>Note down your Access key ID and Secret access key and click on close.</p>
+  Enter a new username(eg. testuser) and select Access types as <b>‘Programmatic access’</b>. Then click on Next Permission > Next review > Create User <br />
+  Note down your Access key ID and Secret access key and click on close.</p>
 <br />
 
 <p><b>Step 4 - </b>Now Click on the user created (eg. testuser)</p>
@@ -28,7 +27,7 @@
 <br />
 
 <p>
-  <b>Step 6 -</b> Click on <b>JSON</b> and add the below policy code
+  <b>Step 6 -</b> Click on <b>JSON</b> and add the below policy code. Then click on <b>Review Policy</b>, give it a name(eg. new-policy) and <b>Create Policy</b>
   <pre>
     {
         "Version": "2012-10-17",
@@ -47,9 +46,6 @@
         ]
     }
   </pre>
-</p>
-<p>
-  Then click on <b>Review Policy</b>, give it a name(eg. new-policy) and <b>Create Policy</b>.
 </p>
 <br />
 
