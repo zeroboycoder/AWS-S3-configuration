@@ -33,21 +33,30 @@
   <b>Step 6 -</b> Click on <b>JSON</b> and add the below policy code. Then click on <b>Review Policy</b>, give it a name(eg. new-policy) and <b>Create Policy</b>
   <pre>
     {
-        "Version": "2012-10-17",
-        "Statement": [
-            {
-                "Effect": "Allow",
-                "Action": [
-                    "s3:ListAllMyBuckets",
-                    "s3:PutObject",
-                    "s3:GetObject"
-                ],
-                "Resource": [
-                    "arn:aws:s3:::*"
-                ]
-            }
-        ]
-    }
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "s3:Put*",
+                "s3:Get*",
+                "s3:List*",
+                "s3:Delete*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::bucket/*",
+                "arn:aws:s3:::bucket"
+            ]
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": "s3:ListAllMyBuckets",
+            "Resource": "*"
+        }
+    ]
+}
   </pre>
 </p>
 <br />
